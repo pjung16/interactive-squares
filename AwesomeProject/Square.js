@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { StyleSheet, Button, Text, View } from 'react-native';
+import { StyleSheet, Button, Text, View, Animated } from 'react-native';
 
 class Square extends Component {
   constructor(props) {

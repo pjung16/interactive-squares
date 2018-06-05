@@ -8,7 +8,7 @@ export default class App extends Component {
     for (let i = 0; i < 49; i++) {
       nums.push(i);
     }
-	return nums.map((i) => <Square key={i} />);
+		return nums.map((i) => <Square key={i} />);
   }
   render() {
     return (
