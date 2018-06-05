@@ -38,14 +38,15 @@ class Square extends Component {
 	    aspectRatio: 1
 	    },
 	  });
+	  
     return (
-    <View style={styles.square}>
-      <Button
-        onPress={this.changeColor}
-        title="    "
-        color='transparent'
-      />
-    </View>
+	    <View style={styles.square}>
+	      <Button
+	        onPress={this.changeColor}
+	        title="    "
+	        color='transparent'
+	      />
+	    </View>
     );
   }
 }
