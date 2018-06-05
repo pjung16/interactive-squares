@@ -13,7 +13,7 @@ export default class App extends Component {
   render() {
     return (
       <View style={styles.container}>
-		{this.renderSquares()}
+				{this.renderSquares()}
       </View>
     );
   }
@@ -21,13 +21,13 @@ export default class App extends Component {
 
 const styles = StyleSheet.create({
   container: {
-    backgroundColor: '#000',
-	flex: 1,
-	flexWrap: 'wrap', 
-    alignItems: 'flex-start',
-    flexDirection:'row',
-	alignItems: 'center',
-    justifyContent: 'center',
-	paddingTop: 150
+	  backgroundColor: '#000',
+		flex: 1,
+		flexWrap: 'wrap', 
+	  alignItems: 'flex-start',
+	  flexDirection:'row',
+		alignItems: 'center',
+	  justifyContent: 'center',
+		paddingTop: '50%'
   },
 });
